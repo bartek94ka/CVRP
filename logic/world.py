@@ -3,6 +3,7 @@ from tabulate import tabulate
 
 import StringIO
 import sys
+import math
 
 class World:
   def __init__(self, cities, demands, distances, fleet):
@@ -33,7 +34,7 @@ class World:
     demandsCp = list(self.demands)
     for ti in trucksRg:
       for i in range(self.trucks['count'][ti]):
-        allCapacities.append(self.trucks['capacities'][ti])
+        allCapacities.append((self.trucks['capacities'][ti]*1,5))
     allCapacities.sort(reverse = True)
     demandsCp.sort(reverse = True)
 
@@ -51,7 +52,7 @@ class World:
           self.t[i, j, ti] = self.model.addVar(vtype = GRB.BINARY)
 
     for i in clients:
-      self.u[i] = self.model.addVar(lb = self.demands[i - 1], ub = maxCapacity, vtype = GRB.INTEGER)
+      self.u[i] = self.model.addVar(lb = self.demands[i - 1], ub = maxCapacity, vtype=GRB.INTEGER)
 
     self.model.update()
 
