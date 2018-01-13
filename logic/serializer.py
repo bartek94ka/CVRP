@@ -13,7 +13,7 @@ class Serializer:
       for i in range(len(self.worlds[wi].cities)):
         if (self.worlds[wi].x[0, i].X > 0.5) & (i != 0):
           routes.append(self.printTour(wi + 1, self.worlds[wi], 'FACTORY -> ', i, self.worlds[wi].distances[0][i], 0))
-    print tabulate(routes, headers = ['BATCH', 'DIST', 'COST', 'TRUCK', 'PALETTES', 'ROUTE'])
+    print tabulate(routes, headers = ['BATCH', 'DIST', 'COST', 'TRUCK', 'PALETTES', 'FILL', 'ROUTE'])
     totalCost = 0
     totalPalettes = 0
     for route in routes:
@@ -33,12 +33,14 @@ class Serializer:
           for ti in range(len(world.trucks['names'])):
             if (world.t[start, i, ti].X > 0.5):
               truckId = ti
+          fill = (demand*100 / world.trucks['capacities'][truckId])
           return [
             wid,
             str(totalDistance) + ' km',
             totalDistance * world.trucks['rates'][truckId],
             world.trucks['names'][truckId],
             demand,
+            str(fill) + '%',
             route + 'FACTORY'
           ]
         return self.printTour(wid, world, route, i, totalDistance, demand)

@@ -258,3 +258,948 @@ Thread count was 4 (of 4 available processors)
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:41:14 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:41:46 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.11 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:45:37 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.11 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:45:59 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.15 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:46:14 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.15 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:52:39 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:53:33 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.10 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:55:45 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.14 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:56:13 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.21 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:58:03 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:58:18 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.11 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:58:38 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:59:18 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:59:40 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:59:50 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 13:59:56 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.10 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 14:00:06 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.17 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 14:01:40 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.13 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 14:03:24 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.13 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 14:05:12 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.11 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (linux64) logging started Sat Jan 13 14:06:21 2018
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.10 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
