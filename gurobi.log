@@ -1420,3 +1420,203 @@ Thread count was 4 (of 4 available processors)
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 4.730827500000e+03, best bound 4.730827500000e+03, gap 0.0%
+
+Gurobi 6.5.2 (win64) logging started 01/14/18 12:55:43
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 36 rows, 104 columns and 129 nonzeros
+Model has 54 quadratic objective terms
+Model has 208 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 72 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Presolve removed 8 rows and 21 columns
+Presolve time: 0.02s
+Presolved: 988 rows, 467 columns, 2800 nonzeros
+Presolved model has 126 quadratic objective terms
+Variable types: 0 continuous, 467 integer (464 binary)
+
+Root relaxation: objective -2.329689e+03, 100 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -2329.6894    0   66          - -2329.6894      -     -    0s
+     0     2 -2329.6894    0   66          - -2329.6894      -     -    0s
+*  678   123              10    4744.4617500 1494.93359  68.5%  15.4    0s
+*  782    52               9    4733.6572500 1899.53949  59.9%  14.5    0s
+*  910     0              10    4730.8275000 3585.54000  24.2%  13.3    0s
+
+Cutting planes:
+  Cover: 7
+
+Explored 918 nodes (12241 simplex iterations) in 0.83 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.730827500000e+03, best bound 4.730827500000e+03, gap 0.0%
+
+Gurobi 6.5.2 (win64) logging started 01/15/18 16:47:24
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 36 rows, 104 columns and 129 nonzeros
+Model has 54 quadratic objective terms
+Model has 208 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 72 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Modified 13 Q diagonals
+Presolve removed 8 rows and 21 columns
+Presolve time: 0.02s
+Presolved: 988 rows, 467 columns, 2800 nonzeros
+Presolved model has 126 quadratic objective terms
+Variable types: 0 continuous, 467 integer (464 binary)
+
+Root relaxation: objective -2.329689e+03, 100 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -2329.6894    0   66          - -2329.6894      -     -    0s
+     0     2 -2329.6894    0   66          - -2329.6894      -     -    0s
+*  678   123              10    4744.4617500 1494.93359  68.5%  15.4    0s
+*  782    52               9    4733.6572500 1899.53949  59.9%  14.5    0s
+*  910     0              10    4730.8275000 3585.54000  24.2%  13.3    0s
+
+Cutting planes:
+  Cover: 7
+
+Explored 918 nodes (12241 simplex iterations) in 0.70 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.730827500000e+03, best bound 4.730827500000e+03, gap 0.0%
+
+Gurobi 6.5.2 (win64) logging started 01/15/18 18:41:47
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.05s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.16 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
+
+Gurobi 6.5.2 (win64) logging started 01/15/18 18:45:31
+
+Changed value of parameter TimeLimit to 1200.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
+Optimize a model with 25 rows, 67 columns and 79 nonzeros
+Model has 36 quadratic objective terms
+Model has 90 quadratic constraints
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 3e+01]
+  RHS range       [1e+00, 2e+01]
+Modified 48 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Modified 10 Q diagonals
+Presolve removed 7 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 423 rows, 212 columns, 1200 nonzeros
+Presolved model has 84 quadratic objective terms
+Variable types: 0 continuous, 212 integer (210 binary)
+
+Root relaxation: objective -1.759538e+03, 68 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -1759.5379    0   48          - -1759.5379      -     -    0s
+     0     2 -1759.5379    0   48          - -1759.5379      -     -    0s
+*   88     3               7    3943.4970000   92.90960  97.6%  10.5    0s
+
+Cutting planes:
+
+Explored 225 nodes (1839 simplex iterations) in 0.08 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.943497000000e+03, best bound 3.943497000000e+03, gap 0.0%
