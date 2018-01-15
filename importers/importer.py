@@ -3,6 +3,7 @@ from demands_importer import DemandsImporter
 from distances_importer import DistancesImporter
 from fleet_importer import FleetImporter
 from fleet_types_importer import FleetTypesImporter
+from pallets_importer import PalletsImporter
 
 class Importer:
   def __init__(self, model, ordersVersion, factoryKey, simple, batchSize):
@@ -10,6 +11,7 @@ class Importer:
     self.factoryKey = factoryKey
     self.batchSize = batchSize
     self.clientsImp = ClientsImporter("../data/{0}/{1}.csv".format(model, 'distances'), factoryKey)
+    self.palletsImp = PalletsImporter("../data/{0}/{1}.csv".format(model, 'pallets'))
     self.demandsImp = DemandsImporter("../data/{0}/{1}{2}.csv".format(model, 'orders', ordersVersion))
     self.distancesImp = DistancesImporter("../data/{0}/{1}.csv".format(model, 'distances'))
     if simple:
@@ -26,12 +28,17 @@ class Importer:
     distancesBatches = []
     fleetsBatches = []
 
+    pallets = []
+
     clients = self.clientsImp.process()
 
-    export = self.demandsImp.process(clients)
+    pallets = self.palletsImp.process()
+    export = self.demandsImp.process(clients, pallets)
     allDemands = export['demands']
     clients = export['cities']
 
+    #pallets[1]['typeId']
+    #pallets = exportedpallets['']
     count = 0
     for i in range(len(clients)):
       if allDemands[i] > 0:

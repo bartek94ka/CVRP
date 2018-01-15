@@ -1,4 +1,4 @@
-Target; Demand
-A;15
-B;27
-C;11
+Target; Demand; PaletteTypeID
+A;15;0
+B;27;0
+C;11;0
