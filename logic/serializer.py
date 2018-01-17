@@ -37,7 +37,7 @@ class Serializer:
           return [
             wid,
             str(totalDistance) + ' km',
-            totalDistance * world.trucks['rates'][truckId],
+            (totalDistance - world.distances[start][i]) * world.trucks['rates'][truckId],
             world.trucks['names'][truckId],
             demand,
             str(fill) + '%',

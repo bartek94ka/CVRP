@@ -56,6 +56,7 @@ class World:
 
     self.model.update()
 
+
     # OBJECTIVE
     obj = quicksum(
       self.distances[i][j] * self.x[i,j] * self.t[i, j, ti] * self.trucks['rates'][ti]
